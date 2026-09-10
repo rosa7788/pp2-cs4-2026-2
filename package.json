@@ -1,6 +1,0 @@
-{
-  "devDependencies": {
-    "@types/pg": "^8.23.1",
-    "prisma": "^8.0.0-rc.13"
-  }
-}
