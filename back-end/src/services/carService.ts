@@ -1,7 +1,7 @@
 import * as carRepository from "../repositories/carRepository";
 
-import type { CreateCarDto } from "../../dto/createCarDto";
-import type { UpdateCarDto } from "../../dto/updateCarDto";
+import type { CreateCarDto } from "../dto/createCarDto";
+import type { UpdateCarDto } from "../dto/updateCarDto";
 
 export function findAll() {
   return carRepository.findAll();

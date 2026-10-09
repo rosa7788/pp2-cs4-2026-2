@@ -1,8 +1,8 @@
 import { prisma } from "../database/client";
 
-import type { CreateCustomerDto } from "../../dto/createCustomerDto";
+import type { CreateCustomerDto } from "../dto/createCustomerDto";
 
-import type { UpdateCustomerDto } from "../../dto/updateCustomerDto";
+import type { UpdateCustomerDto } from "../dto/updateCustomerDto";
 
 export function findAll() {
   return prisma.customer.findMany({

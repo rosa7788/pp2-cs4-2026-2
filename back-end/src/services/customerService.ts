@@ -1,8 +1,8 @@
 import * as repository from "../repositories/customerRepository";
 
 import type { Customer } from "../../generated/prisma/client";
-import type { CreateCustomerDto } from "../../dto/createCustomerDto";
-import type { UpdateCustomerDto } from "../../dto/updateCustomerDto";
+import type { CreateCustomerDto } from "../dto/createCustomerDto";
+import type { UpdateCustomerDto } from "../dto/updateCustomerDto";
 
 import { NotFoundError } from "../errors/NotFoundError";
 

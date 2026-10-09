@@ -2,8 +2,8 @@ import type { Request, Response, NextFunction } from "express";
 
 import * as service from "../services/customerService";
 
-import type { CreateCustomerDto } from "../../dto/createCustomerDto";
-import type { UpdateCustomerDto } from "../../dto/updateCustomerDto";
+import type { CreateCustomerDto } from "../dto/createCustomerDto";
+import type { UpdateCustomerDto } from "../dto/updateCustomerDto";
 
 type CustomerIdParams = {
   id: string;
