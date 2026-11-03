@@ -2,10 +2,6 @@ import { useState, useEffect  } from 'react'
 import type { Customer } from '../types/Customer'
 
 
-type CustomerListProps = {
- list?: Customer[]
-}
-
 
 export function CustomersList() {
  const [customers, setCustomers] = useState<Customer[]>([])
@@ -77,6 +73,7 @@ export function CustomersList() {
 
  return (
    <>
+   <h2 className="h2 mb-3">Listagem de Clientes</h2>
 
 
      <p className="text-secondary">
